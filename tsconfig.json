@@ -30,5 +30,10 @@
     "src",
     "tailwind.config.js"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "images": {
+    "domains": [
+      "api.microlink.io" // Microlink Image Preview
+    ]
+  }
 }
