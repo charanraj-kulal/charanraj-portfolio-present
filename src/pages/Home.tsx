@@ -8,12 +8,16 @@ import Projects from "../components/Projects";
 import Extra from "../components/Extra";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+// import GlobeDemo from "../components/globeComponent";
+import DockDemo from "../components/Dock";
 
 const Home: React.FC = () => {
   return (
     <>
       <div>
         <Nav />
+        {/* <DockDemo /> */}
+        {/* <GlobeDemo /> */}
         <Hero />
         <About />
         <Experience />
