@@ -56,7 +56,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           <TypewriterEffectSmooth words={words} />
         </div>
         <div className="inline-flex container justify-center mb-2">
-          <h2 className="text-neutral-700 dark:text-neutral-300 text-lg md:text-xl max-w-2xl inline-flex text-center">
+          <h2 className="text-neutral-700 dark:text-neutral-300 text-sm md:text-xl max-w-2xl inline-flex text-center">
             I&apos;ve been working on my web development skills for the past 3
             years. Here&apos;s a timeline of my journey.
           </h2>

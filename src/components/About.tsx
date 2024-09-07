@@ -1,7 +1,9 @@
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
-
+import { Badge } from "@/components/ui/badge";
 import { LinkPreview } from "@/components/ui/link-preview";
+import { Link } from "react-router-dom";
+import { Icons } from "@/components/icons";
 
 const About: React.FC = () => {
   const data = [
@@ -9,13 +11,22 @@ const About: React.FC = () => {
       title: "Early 2022",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
             I had been looking for a project for my acedemics where I had zero
             knowledge about techs. Somehow rushed into an Internship where I got
             an "INTREST" in web development and with the help of collegues I
             built a website called "LMS" which basically works on Laravel and
             Bootstrap5.
           </p>
+          <Badge className=" mb-8">
+            <Link
+              to={"https://github.com/charanraj-kulal/Leave_management_system"}
+              className="flex"
+            >
+              <Icons.github className="h-4 w-4 mr-2" />
+              LMS
+            </Link>
+          </Badge>
           <div className="grid grid-cols-2 gap-4">
             <img
               src="https://ik.imagekit.io/charanraj/UI/image%20(5).png?updatedAt=1725711617483"
@@ -58,10 +69,30 @@ const About: React.FC = () => {
             development and started to working on that and found PHP Frameworks
             , which made me to get knowledge about routes, MVC and SQL.
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal ">
             Later I built some templates to master responsive and worked on
             AGNISIA - The fest management system.
           </p>
+          <div className="mb-6">
+            <Badge className=" mb-4">
+              <Link
+                to={"https://github.com/charanraj-kulal/Agno-fest-fullstack"}
+                className="flex"
+              >
+                <Icons.github className="h-4 w-4 mr-2" />
+                Aavirbhav
+              </Link>
+            </Badge>
+            <Badge className="m-3">
+              <Link
+                to={"https://github.com/charanraj-kulal/restaurant-template"}
+                className="flex"
+              >
+                <Icons.github className="h-4 w-4 mr-2" />
+                Restoran
+              </Link>
+            </Badge>
+          </div>
           <div className="grid grid-cols-2 gap-4">
             <img
               src="https://ik.imagekit.io/charanraj/UI/image%20(6).png?updatedAt=1725711622247"
@@ -133,6 +164,26 @@ const About: React.FC = () => {
                 Webhooksstudio-Freelancing Platform.
               </LinkPreview>
             </div>
+            <Badge className="">
+              <Link
+                to={
+                  "https://github.com/charanraj-kulal/webhooksstudio-fullstack"
+                }
+                className="flex"
+              >
+                <Icons.github className="h-4 w-4 mr-2" />
+                Webhooksstudio
+              </Link>
+            </Badge>
+            <Badge className="m-3">
+              <Link
+                to={"https://github.com/charanraj-kulal/study-sphere-frontend"}
+                className="flex"
+              >
+                <Icons.github className="h-4 w-4 mr-2" />
+                Study-Sphere
+              </Link>
+            </Badge>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <img
