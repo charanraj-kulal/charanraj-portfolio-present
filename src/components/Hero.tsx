@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
   const products = [
     {
       title: "Aavirbhav",
-      link: "#",
+      link: "https://aavirbhav.tech/",
       thumbnail: "https://ik.imagekit.io/charanraj/UI/image%20(6).png",
     },
     {
@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
     },
     {
       title: "Aavirbhav",
-      link: "#",
+      link: "https://aavirbhav.tech/",
       thumbnail: "https://ik.imagekit.io/charanraj/UI/image%20(6).png",
     },
     {
@@ -80,7 +80,7 @@ const Hero: React.FC = () => {
     },
     {
       title: "Aavirbhav",
-      link: "#",
+      link: "https://aavirbhav.tech/",
       thumbnail: "https://ik.imagekit.io/charanraj/UI/image%20(6).png",
     },
     {
