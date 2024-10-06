@@ -28,8 +28,8 @@ export const DATA = {
     },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "charanraj9731@gmail.com",
+    tel: "+91 9353649294",
     social: {
       GitHub: {
         name: "GitHub",
@@ -194,8 +194,8 @@ Also contributed my knowledge of PHP frameworks.`,
       video: "",
     },
     {
-      title: "Agnisia",
-      href: "#",
+      title: "Agnesia",
+      href: "https://aavirbhav.tech/",
       dates: "Nov 2023 - Mar 2024",
       active: true,
       description:
@@ -211,6 +211,11 @@ Also contributed my knowledge of PHP frameworks.`,
         "JSON",
       ],
       links: [
+        {
+          type: "Website",
+          href: "https://aavirbhav.tech/",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/charanraj-kulal/Agno-fest-fullstack",
